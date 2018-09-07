@@ -4,7 +4,8 @@
   "description": "Equivalent to the old stage-0 babel preset, use with @babel/preset-env",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish-current": "npm publish --access public"
   },
   "repository": {
     "type": "git",
