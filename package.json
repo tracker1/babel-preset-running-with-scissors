@@ -1,6 +1,6 @@
 {
   "name": "@tracker1/babel-preset-running-with-scissors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Equivalent to the old stage-0 babel preset, use with @babel/preset-env",
   "main": "index.js",
   "scripts": {
