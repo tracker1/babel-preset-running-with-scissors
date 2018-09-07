@@ -1,0 +1,49 @@
+{
+  "name": "@tracker1/babel-preset-running-with-scissors",
+  "version": "1.0.0",
+  "description": "Equivalent to the old stage-0 babel preset, use with @babel/preset-env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracker1/babel-preset-running-with-scissors.git"
+  },
+  "keywords": [
+    "babel",
+    "preset-stage-0",
+    "preset-stage-1",
+    "preset-stage-2",
+    "preset-stage-3",
+    "proposal",
+    "esnext"
+  ],
+  "author": "Michael J. Ryan <tracker1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tracker1/babel-preset-running-with-scissors/issues"
+  },
+  "homepage": "https://github.com/tracker1/babel-preset-running-with-scissors#readme",
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0"
+  }
+}
