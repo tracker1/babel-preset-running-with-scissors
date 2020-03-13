@@ -1,28 +1,11 @@
 # babel-preset-running-with-scissors
-Equivalent to the old stage-0 babel preset, use with @babel/preset-env
 
-```
-// Stage 0
-"@babel/plugin-proposal-function-bind",
+As of version 2, supports the stage-1 and higher proposals with available babel transforms.
 
-// Stage 1
-"@babel/plugin-proposal-export-default-from",
-"@babel/plugin-proposal-logical-assignment-operators",
-["@babel/plugin-proposal-optional-chaining", { "loose": false }],
-["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
-["@babel/plugin-proposal-nullish-coalescing-operator", { "loose": false }],
-"@babel/plugin-proposal-do-expressions",
+* removed function bind
+* pipeline now set to f-sharp proposal
+* decorators no longer in legacy mode
 
-// Stage 2
-["@babel/plugin-proposal-decorators", { "legacy": true }],
-"@babel/plugin-proposal-function-sent",
-"@babel/plugin-proposal-export-namespace-from",
-"@babel/plugin-proposal-numeric-separator",
-"@babel/plugin-proposal-throw-expressions",
+# specifics
 
-// Stage 3
-"@babel/plugin-syntax-dynamic-import",
-"@babel/plugin-syntax-import-meta",
-["@babel/plugin-proposal-class-properties", { "loose": false }],
-"@babel/plugin-proposal-json-strings"
-```
+See dependencies and index.js
